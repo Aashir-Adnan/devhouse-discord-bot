@@ -1,0 +1,13 @@
+{
+  "allowedEmailDomains": ["example.com"],
+  "commandRoles": {
+    "init": ["CEO", "Server Manager"],
+    "verify": [],
+    "approve": ["CEO", "Server Manager"],
+    "feature": ["Verified"],
+    "bug": ["Verified"],
+    "ticket": ["Senior Dev", "CEO", "Server Manager"],
+    "close-feature": ["Verified"],
+    "dashboard": ["CEO", "Server Manager"]
+  }
+}
